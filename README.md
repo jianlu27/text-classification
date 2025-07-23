@@ -1,1 +1,28 @@
-<pre><code>py/ ├── CoLA/ # CoLA数据集（原始） │ ├── dev.tsv │ ├── test.tsv │ └── train.tsv ├── cola_lr_model/ # CoLA任务的逻辑回归模型参数 │ └── model_params.joblib ├── cola_test_pred.tsv # CoLA测试集预测结果 ├── download_bert.py # 下载BERT模型的脚本 ├── predict.py # 预测脚本，可能用于加载模型进行推理 ├── preprocess_data.py # 数据预处理脚本 ├── processed_data/ # 预处理后的数据 │ ├── cola_dev.tsv │ ├── cola_test.tsv │ ├── cola_train.tsv │ ├── sst2_dev.tsv │ ├── sst2_test.tsv │ └── sst2_train.tsv ├── requirements.txt # Python依赖包列表 ├── SST-2/ # SST-2数据集（原始） │ ├── dev.tsv │ ├── test.tsv │ └── train.tsv ├── sst2_lr_model/ # SST-2任务的逻辑回归模型参数 │ └── model_params.joblib ├── sst2_test_pred.tsv # SST-2测试集预测结果 ├── train_cola.py # 训练CoLA任务模型的脚本 └── train_sst2.py # 训练SST-2任务模型的脚本 </code></pre>
+py/
+├── CoLA/                      # CoLA数据集（原始）
+│   ├── dev.tsv
+│   ├── test.tsv
+│   └── train.tsv
+├── cola_lr_model/             # CoLA任务的逻辑回归模型参数
+│   └── model_params.joblib
+├── cola_test_pred.tsv         # CoLA测试集预测结果
+├── download_bert.py           # 下载BERT模型的脚本
+├── predict.py                 # 预测脚本，可能用于加载模型进行推理
+├── preprocess_data.py         # 数据预处理脚本
+├── processed_data/            # 预处理后的数据
+│   ├── cola_dev.tsv
+│   ├── cola_test.tsv
+│   ├── cola_train.tsv
+│   ├── sst2_dev.tsv
+│   ├── sst2_test.tsv
+│   └── sst2_train.tsv
+├── requirements.txt           # Python依赖包列表
+├── SST-2/                     # SST-2数据集（原始）
+│   ├── dev.tsv
+│   ├── test.tsv
+│   └── train.tsv
+├── sst2_lr_model/             # SST-2任务的逻辑回归模型参数
+│   └── model_params.joblib
+├── sst2_test_pred.tsv         # SST-2测试集预测结果
+├── train_cola.py              # 训练CoLA任务模型的脚本
+└── train_sst2.py              # 训练SST-2任务模型的脚本
